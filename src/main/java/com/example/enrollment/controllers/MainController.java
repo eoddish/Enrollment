@@ -46,7 +46,6 @@ class MainController {
     @DeleteMapping("/delete/{id}")
     void deleteNode(@PathVariable String id) {
         repository.deleteById(id);
-        return;
     }
 
     @GetMapping("/nodes/{id}")
