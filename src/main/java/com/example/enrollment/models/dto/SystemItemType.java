@@ -1,4 +1,4 @@
-package com.example.enrollment.models;
+package com.example.enrollment.models.dto;
 
 public enum SystemItemType {
     FILE,
